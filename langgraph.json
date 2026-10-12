@@ -1,0 +1,12 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "summarization_messages": "./src/langsmithlab/graphs.py:summarization_messages",
+    "summarization_tokens": "./src/langsmithlab/graphs.py:summarization_tokens",
+    "summarization_fraction": "./src/langsmithlab/graphs.py:summarization_fraction",
+    "email_assistant": "./src/langsmithlab/graphs.py:email_assistant"
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}
